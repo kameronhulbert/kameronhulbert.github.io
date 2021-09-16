@@ -85,3 +85,9 @@
     text-align: right;
 
 }
+
+.dark-mode #span1-desktop a #span1-mobile a {
+
+  color: white;
+
+}
