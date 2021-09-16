@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://www.justinflyslayer.ml/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="./index_files/style.foot.css">
+	<link rel="stylesheet" type="text/css" href="./index_files/style.head.css">
+	<link rel="stylesheet" type="text/css" href="./index_files/style.main.css">
+	<link rel="icon shortcut" type="image/png" href="./index_files/icon.png">
+	<title>Red Oak Tech Solutions</title>
+
+</head>
+
+<body>
+
+	<!-- BEGIN Wrapper/Nav Menu -->
+
+	<div class="head">
+
+        <div class="nav">
+            
+            <nav class="navbar">
+                
+                <span class="open-slide">
+                
+                    <a href="#" onclick="openSideMenu()" style="font-size: 25px;">☰</a>
+                
+                </span>
+
+                <span id="logo">
+                
+                    <a href="https://www.redoaktech.xyz/"><img id="icon" src="./index_files/icon.png" alt="Red Oak Tech Solutions Logo" title="Go home ..." width="35" height="35"></a>
+                    
+                </span>
+            </nav>
+
+            <div id="side-menu" class="side-menu" style="list-style-type: none;">
+                
+                <a href="#" class="btn-close" onclick="closeSideMenu()">×</a>
+                <li><a onClick="darkMode();logoChange();">Toggle Dark Mode</a></li>
+                <li><a href="https://www.redoaktech.xyz/">Home</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">Facebook</a></li>
+            </div>
+
+        </div>
+
+    </div>
+
+	<!-- END Wrapper/Nav Menu -->
+
+	<!-- BEGIN Page Content -->
+
+	<div id="main">
+
+		<div id="main1">
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h2>Welcome to Red Oak Tech Solutions!</h2>
+			<br>
+			<br>
+			<br>
+
+		</div>
+
+		<div id="main2">
+
+			<br>
+			<br>
+			<br>
+            <h4>About Us</h4>
+			<p>Red Oak Tech Solutions is a technology repair company based out of Lewiston, Michigan. We aim to give our customers excellent service.</p>
+			<br>
+            <h4>Our Services</h4>
+            <ul style="list-style-type: disc;">
+                <li>Electronics Repair<a style="color:red;text-decoration:none;">*</a>
+                    <ul style="list-style-type: circle;">
+                        <li id="liCell">Cell Phones</li>
+                        <li id="liComps">Computers</li>
+                        <li id="liDevices">All Older Generation iDevices</li>
+                    </ul>
+                </li>
+                <li id="byop">Bring-Your-Own-Parts Computer Building</li>
+            </ul>
+            <p style="font-size:11px;color:red;">* Smart appliances will NOT be repaired by our consultant.</p>
+			<br>
+			<h4>Pricing</h4>
+			<p>Prices vary depend on parts needed and time required for repairs. <a href="#contact">Contact our consultant</a> for more information.</p>
+			<br>
+			<h4 id="contact">Contact our Consultant</h4>
+			<p>- Consultant Name: Kameron Hulbert</p>
+			<p id="email">- Email: <a href="mailto:RedOakTechSolutions@gmail.com">RedOakTechSolutions@gmail.com</a></p>
+			<p id="tel">- Telephone: <a href="tel:(616)286-8079">(616)286-8079</a></p>
+			<p id="address">- Address: <strong>Contact consultant for this information!</strong></p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+		</div>
+
+	</div>
+
+	<!-- END Page Content -->
+
+	<!-- BEGIN Page Scripts -->
+
+	<script>
+        
+        function openSideMenu() {
+
+            document.getElementById('side-menu').style.width = '512px';
+
+        }
+
+        function closeSideMenu() {
+
+            document.getElementById('side-menu').style.width = '0px';
+
+        }
+
+    </script>
+
+    <script>
+
+	    window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("gttBtn").style.display = "block";
+		  } else {
+		    document.getElementById("gttBtn").style.display = "none";
+		  }
+		}
+
+		function goToTop() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+
+		function darkMode() {
+  			var element = document.body;
+  			element.classList.toggle("dark-mode");
+		}
+
+		 function logoChange() {
+            document.getElementById('icon').src="./index_files/icon_white.png";
+    	}
+
+	</script>
+
+    <!-- END Page Scripts -->
+
+    <div class="footer">
+        
+        <span id="span1-desktop">
+            
+            <br>
+            <br>
+            <br>
+            <p>This website was made with love &#10084; by <a href="https://twitter.com/_NotNotJustin">Justin "NotNotJustin" Young</a> and is hosted by GitHub Pages. Some scripts were not developed by Justin. All non-original scripts' rights belong to their respective developers. No claim is laid to said scripts.</p>
+
+        </span>
+
+        <span id="span1-mobile">
+            
+            <br>
+            <br>
+            <br>
+            <p>This website was made with love &#10084; by <a href="https://twitter.com/_NotNotJustin">Justin "NotNotJustin" Young</a> and is hosted by GitHub Pages. Some scripts were not developed by Justin. All non-original scripts' rights belong to their respective developers. No claim is laid to said scripts.</p>
+
+        </span>
+
+    </div>
+
+
+
+
+</body></html>
