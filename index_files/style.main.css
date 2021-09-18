@@ -32,14 +32,14 @@ p {
   color: #222;
 }
 
-body.darkmode {
+body.dark-mode {
   background: #121212;
 }
-body.darkmode h1,
-body.darkmode p {
+body.dark-mode h1,
+body.dark-mode p {
   color: #eee;
 }
-body.darkmode a {
+body.dark-mode a {
   color: #809fff;
 }
 
