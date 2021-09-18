@@ -37,7 +37,7 @@
             <div id="side-menu" class="side-menu" style="list-style-type: none;">
                 
                 <a href="#" class="btn-close" onclick="closeSideMenu()">×</a>
-                <li><a onClick="darkMode();logoChange();">Toggle Dark Mode</a></li>
+                <li><a onClick="darkMode();logoChange();darkLink();">Toggle Dark Mode</a></li>
                 <li><a href="https://www.redoaktech.xyz/">Home</a></li>
                 <li><a href="#" target="_blank">Twitter</a></li>
                 <li><a href="#" target="_blank">Instagram</a></li>
@@ -196,9 +196,12 @@
 		function darkMode() {
   			var element = document.body;
   			element.classList.toggle("dark-mode");
-			element.getElementById.toggle('dark-link') {
-				element.style.color = "white";	
-			}
+			
+		}
+	    	function darkLink() {
+  			var element = document.body;
+  			element.classList.toggle("dark-link");
+			
 		}
 
 		function logoChange() {
