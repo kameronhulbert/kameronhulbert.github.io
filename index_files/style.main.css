@@ -27,15 +27,20 @@
     
 }
 
-.dark-mode {
-  background-color: #433d3d;
-  color: white;
+h1,
+p {
+  color: #222;
 }
 
-.dark-mode > a {
-
-  color: white;
-
+body.darkmode {
+  background: #121212;
+}
+body.darkmode h1,
+body.darkmode p {
+  color: #eee;
+}
+body.darkmode a {
+  color: #809fff;
 }
 
 #main {
