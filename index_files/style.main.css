@@ -1,4 +1,4 @@
-@media(min-width:528px) {
+@media(min-width:568px) {
     
     body {
 
@@ -9,10 +9,58 @@
         text-align: center;
 
     }
+
+    #liDevices-mobile {
+
+      display: none;
+
+    }
+
+    #liComps-mobile {
+
+      display: none;
+
+    }
+
+    #liCell-mobile {
+
+      display: none;
+
+    }
+
+    #byop-mobile {
+
+      display: none;
+
+    }
+
+    #email-mobile {
+
+      display: none;
+
+    }
+
+    #tel-mobile {
+
+      display: none;
+
+    }
+
+    #address-mobile {
+
+      display: none;
+
+    }
+    
+    #eRepair-mobile {
+        
+      display: none;
+        
+    }
     
 }
 
-@media(max-width:528px) {
+@media(max-width:568px) {
     
     body {
 
@@ -23,6 +71,54 @@
         margin: 0px 0px 0px 0px;
         text-align: center;
 
+    }
+
+    #liDevices {
+
+      display: none;
+
+    }
+
+    #liComps {
+
+      display: none;
+
+    }
+
+    #liCell {
+
+      display: none;
+
+    }
+
+    #byop {
+
+      display: none;
+
+    }
+
+    #email {
+
+      display: none;
+
+    }
+
+    #tel {
+
+      display: none;
+
+    }
+
+    #address {
+
+      display: none;
+
+    }
+    
+    #eRepair {
+        
+      display: none;
+        
     }
     
 }
@@ -144,22 +240,76 @@
 
 }
 
-#pod {
+#liDevices-mobile {
 
-  font-weight: bold;
-  color: #ba1111;
-  text-align: center;
+  padding-left: 124.5px;
 
 }
 
-#pod h4 {
+#liComps-mobile {
 
-  font-size: 50px;
+  margin-left: -7.75px;
 
 }
 
-.dark-link {
+#liCell-mobile {
 
-  color: white;
+  padding-left: 1px;
+
+}
+
+#byop-mobile {
+
+  padding-left: 6.5px;
+
+}
+
+#email-mobile {
+
+  padding-left: 40px;
+
+}
+
+#tel-mobile {
+
+  margin-left: -70px;
+
+}
+
+#address-mobile {
+
+  padding-left: 10px;
+
+}
+
+#eRepair-mobile {
+    
+  margin-left: -85px;
+    
+}
+
+.modal-header,h4,button {
+
+    display: inline-block;
+
+}
+
+.modal-header {
+
+    width: 900px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.modal-body {
+
+    text-align: center;
+    width: 900px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 
 }
