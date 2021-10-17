@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0031)https://www.justinflyslayer.ml/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -37,11 +36,11 @@
             <div id="side-menu" class="side-menu" style="list-style-type: none;">
                 
                 <a href="#" class="btn-close" onclick="closeSideMenu()">×</a>
-                <li><a onClick="darkMode();logoChange();darkLink();">Toggle Dark Mode</a></li>
-                <li><a href="https://www.redoaktech.xyz/index-main.htm">Home</a></li>
+                <!--<li><a onClick="darkMode();logoChange();darkLink();">Toggle Dark Mode</a></li>-->
+                <li><a href="https://www.redoaktech.xyz/">Home</a></li>
                 <!--<li><a href="https://twitter.com/Kameron_ROTS" target="_blank">Twitter</a></li>
                 <li><a href="https://www.instagram.com/kameron_rots/" target="_blank">Instagram</a></li>-->
-            </div>
+                           </div>
 
         </div>
 
@@ -96,14 +95,19 @@
 			<br>
             <h4>Our Services</h4>
             <ul style="list-style-type: disc;">
-                <li>Electronics Repair<a style="color:red;text-decoration:none;">*</a>
+                <li id=eRepair>Electronics Repair<a style="color:red;text-decoration:none;">*</a>
+                <li id="eRepair-mobile">Electronics Repair<a style="color:red;text-decoration:none;">*</a>
                     <ul style="list-style-type: circle;">
                         <li id="liCell">Cell Phones</li>
                         <li id="liComps">Computers</li>
                         <li id="liDevices">All Older Generation iDevices</li>
+                        <li id="liCell-mobile">Cell Phones</li>
+                        <li id="liComps-mobile">Computers</li>
+                        <li id="liDevices-mobile">All Older Generation iDevices</li>
                     </ul>
                 </li>
                 <li id="byop">Bring-Your-Own-Parts Computer Building</li>
+                <li id="byop-mobile">Bring-Your-Own-Parts Computer Building</li>
             </ul>
             <p style="font-size:11px;color:red;">* Smart appliances will NOT be repaired by our consultant.</p>
 			<br>
@@ -148,6 +152,9 @@
 			<p id="email">- Email: <a class="dark-link" href="mailto:RedOakTechSolutions@gmail.com">RedOakTechSolutions@gmail.com</a></p>
 			<p id="tel">- Telephone: <a class="dark-link" href="tel:(616)286-8079">(616)286-8079</a></p>
 			<p id="address">- Address: <strong>Contact consultant for this information!</strong></p>
+			<p id="email-mobile">- Email: <a class="dark-link" href="mailto:RedOakTechSolutions@gmail.com">RedOakTechSolutions@gmail.com</a></p>
+			<p id="tel-mobile">- Telephone: <a class="dark-link" href="tel:(616)286-8079">(616)286-8079</a></p>
+			<p id="address-mobile">- Address: <strong>Contact consultant for this information!</strong></p>
 			<br>
 			<br>
 			<br>
@@ -213,6 +220,7 @@
 	    	function darkLink() {
   			var element = document.body;
   			element.classList.toggle("dark-link").style.color = "white";
+  			element.a.style.color = "none";
 			
 		}
 
