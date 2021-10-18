@@ -1,4 +1,4 @@
-@media (min-width:528px) and (orientation:landscape) {
+@media (min-width:528px) {
     
     body {
 
@@ -108,7 +108,7 @@
     
 }
 
-@media (max-width:528px) and (orientaion:portrait) {
+@media (max-width:528px) {
     
     body {
 
