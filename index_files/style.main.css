@@ -61,25 +61,25 @@
 
     #liDevices {
 
-      display: block;
+      display: list-item;
 
     }
 
     #liComps {
 
-      display: block;
+      display: list-item;
 
     }
 
     #liCell {
 
-      display: block;
+      display: list-item;
 
     }
 
     #byop {
 
-      display: block;
+      display: list-item;
 
     }
 
@@ -103,7 +103,7 @@
     
     #eRepair {
         
-      display: block;
+      display: list-item;
         
     }
     
@@ -173,25 +173,25 @@
 
     #liDevices-mobile {
 
-      display: block;
+      display: list-item;
 
     }
 
     #liComps-mobile {
 
-      display: block;
+      display: list-item;
 
     }
 
     #liCell-mobile {
 
-      display: block;
+      display: list-item;
 
     }
 
     #byop-mobile {
 
-      display: block;
+      display: list-item;
 
     }
 
@@ -215,7 +215,7 @@
     
     #eRepair-mobile {
         
-      display: block;
+      display: list-item;
         
     }
     
