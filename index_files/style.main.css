@@ -57,6 +57,54 @@
       display: none;
         
     }
+
+    #liDevices {
+
+      display: block;
+
+    }
+
+    #liComps {
+
+      display: block;
+
+    }
+
+    #liCell {
+
+      display: block;
+
+    }
+
+    #byop {
+
+      display: block;
+
+    }
+
+    #email {
+
+      display: block;
+
+    }
+
+    #tel {
+
+      display: block;
+
+    }
+
+    #address {
+
+      display: block;
+
+    }
+    
+    #eRepair {
+        
+      display: block;
+        
+    }
     
 }
 
@@ -118,6 +166,54 @@
     #eRepair {
         
       display: none;
+        
+    }
+
+    #liDevices-mobile {
+
+      display: block;
+
+    }
+
+    #liComps-mobile {
+
+      display: block;
+
+    }
+
+    #liCell-mobile {
+
+      display: block;
+
+    }
+
+    #byop-mobile {
+
+      display: block;
+
+    }
+
+    #email-mobile {
+
+      display: block;
+
+    }
+
+    #tel-mobile {
+
+      display: block;
+
+    }
+
+    #address-mobile {
+
+      display: block;
+
+    }
+    
+    #eRepair-mobile {
+        
+      display: block;
         
     }
     
